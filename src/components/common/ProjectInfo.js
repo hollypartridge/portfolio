@@ -1,11 +1,9 @@
+import { Link } from 'react-router-dom'
+
 function ProjectInfo({ link, name }) {
   return (
     <div className='project-info'>
-      <a 
-        href={link}
-        target='_blank'
-        rel='noreferrer'
-      >.｡.:*☆ {name} ☆.｡.:*</a>
+      <Link to={link}>.｡.:*☆ {name} ☆.｡.:*</Link>
     </div>
   )
 }

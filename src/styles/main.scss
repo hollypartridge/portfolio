@@ -3,6 +3,8 @@
   background-color: #fff0f8;
 }
 
+// * Nav
+
 nav {
   display: flex;
   align-items: center;
@@ -25,9 +27,11 @@ nav {
   justify-content: flex-end;
 }
 
+// * Home
+
 .home {
   display: flex;
-  margin: 40px 0px 0px;
+  margin: 10px 0px 0px;
   justify-content: center;
 }
 
@@ -114,4 +118,28 @@ nav {
   margin: 4px 100px;
   color: blue;
   background-color: white;
+}
+
+// * Show Page
+
+.show {
+  margin: 30px 0px 0px;
+}
+
+.project-show-info {
+  margin: 30px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  p {
+    font-size: 15px;
+    margin: 10px;
+    color: blue;
+  }
+}
+
+#primary-description {
+  width: 50%;
+  text-align: center;
+  margin: 20px 0px;
 }
