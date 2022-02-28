@@ -1,0 +1,117 @@
+* {
+  font-family: 'Helvetica', sans-serif;
+  background-color: #fff0f8;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  margin: 20px 20px 0px;
+  a, p {
+    color: blue;
+    text-decoration: none;
+    font-size: 15px;
+  }
+}
+
+#nav-name {
+  display: flex;
+  flex: 1;
+}
+
+#nav-about {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.home {
+  display: flex;
+  margin: 40px 0px 0px;
+  justify-content: center;
+}
+
+.project-info {
+  display: flex;
+  flex: 1;
+  margin: 0px 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  a, p {
+    font-size: 15px;
+    color: blue;
+  }
+}
+
+.featured-project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0px 20px;
+}
+
+.butterfly {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 20px;
+  p {
+    font-size: 100px;
+  }
+}
+
+.video-primary-homepage {
+  video {
+  border-right: 1px solid blue;
+  border-left: 1px solid blue;
+  border-bottom: 1px solid blue;
+  width: 800px;
+  }
+}
+
+.web-display-bar {
+  height: 30px;
+  border: 1px solid blue;
+  background-color: white;
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dots-display {
+  width: 10px;
+  height: 10px;
+  background-color: blue;
+  border-radius: 25px;
+  margin: 0px 3px;
+}
+
+.dots-display-hidden {
+  width: 10px;
+  height: 10px;
+  background-color: blue;
+  border-radius: 25px;
+  margin: 0px 3px;
+  visibility: hidden;
+}
+
+.web-display-controls {
+  display: flex;
+  margin: 0px 5px;
+  background-color: white;
+}
+
+.website-bar {
+  border: 1px solid blue;
+  background-color: white;
+}
+
+.website-bar p {
+  font-size: 11px;
+  margin: 4px 100px;
+  color: blue;
+  background-color: white;
+}
