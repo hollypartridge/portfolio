@@ -7,10 +7,10 @@ function Nav() {
         <Link to='/'>Holly Partridge ☺</Link>
       </div>
       <div>
-        <p>Junior Software Engineer</p>
+        <p>.｡.:*☆ Junior Software Engineer ☆.｡.:*</p>
       </div>
       <div id='nav-about'>
-        <Link to='/about'>About</Link>
+        <Link to='/about'>&#8594; About</Link>
       </div>
     </nav>
   )

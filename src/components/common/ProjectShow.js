@@ -56,9 +56,10 @@ function ProjectShow() {
         <WebsiteDisplay 
           title={project.website}
           video={project.video}
+          alt={project.name}
         />
         <div className='project-show-info'>
-          <p>.｡.:*☆ {project.name} ☆.｡.:*</p>
+          <p>☆ {project.name} ☆</p>
           <a href={project.hyperlink} target='_blank' rel='noreferrer'><p>Deployed Website</p></a>
           <a href={project.github} target='_blank' rel='noreferrer'><p>Github</p></a>
           <p id='primary-description'>{project.description}</p>
