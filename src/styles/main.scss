@@ -64,6 +64,9 @@ nav {
   p {
     font-size: 100px;
   }
+  img {
+    width: 100px;
+  }
 }
 
 .video-primary-homepage {
@@ -134,7 +137,7 @@ nav {
   p {
     font-size: 15px;
     margin: 10px;
-    color: blue;
+    color: rgb(0, 0, 255);
   }
 }
 
@@ -142,4 +145,30 @@ nav {
   width: 50%;
   text-align: center;
   margin: 20px 0px;
+}
+
+.about-para {
+  width: 40%;
+  margin: 20px 0px 0px 20px;
+  font-size: 14px;
+  color: blue;
+  a {
+    color: blue;
+  }
+}
+
+.skills {
+  display: flex;
+  padding: 0px 15px 0px 0px;
+}
+
+.skills-div {
+  margin: 0px 30px 0px 0px;
+  p {
+    margin: 2px;
+  }
+}
+
+.about-page {
+  display: flex;
 }
