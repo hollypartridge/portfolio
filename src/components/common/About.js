@@ -7,7 +7,7 @@ function About() {
         <p>&#8594; About Me</p>
         <p>I am a bright, hardworking and enthusiastic Junior Software Engineer with great attention to detail. I graduated from Chelsea College of Art this summer with a 1st class honours degree in Graphic Design Communication. After graduation, I enrolled in a Software Engineering Full-Stack Immersive course, which felt like a natural progression in my career having always had a natural curiosity with different computer softwares. My favourite aspects of Software Engineering are that it allows me to combine both my creative and analytical sides, while problem solving and challenging myself daily.</p>
         <p>I am positive, efficient and able to listen and learn quickly, before delivering what is asked of me at a high standard. I am now looking to work as a Junior Software Engineer within a fast paced and energetic environment, alongside a diverse team, to further develop my skills and continue to learn as much as possible in the initial stages of my career.</p><br/>
-        <p>&#8594; Skills</p>
+        <p id='skills'>&#8594; Skills</p>
         <div className='skills'>
           <div className='skills-div'>
             <p>Front-End</p>
@@ -44,7 +44,7 @@ function About() {
             <p>☆ Adobe After Effects</p>
           </div>
         </div><br/>
-        <p>&#8594; Contact</p>
+        <p id='contact'>&#8594; Contact</p>
         <div className='skills-div'>
           <a href='mailto:holly.partridge@icloud.com' target='_blank' rel='noreferrer'><p>☆ Email</p></a>
           <a href='https://www.linkedin.com/in/holly-partridge2022/' target='_blank' rel='noreferrer'><p>☆ LinkedIn</p></a>

@@ -1,3 +1,6 @@
+$mobile: 600px;
+$tablet: 900px;
+
 * {
   font-family: 'Helvetica', sans-serif;
   background-color: #fff0f8;
@@ -14,6 +17,11 @@ nav {
     text-decoration: none;
     font-size: 15px;
   }
+  @media screen and (max-width:$mobile) {
+    border-bottom: 1px solid blue;
+    padding: 10px 0px 20px;
+    margin: 0px 10px 20px;
+  }
 }
 
 #nav-name {
@@ -27,12 +35,21 @@ nav {
   justify-content: flex-end;
 }
 
+#job-title {
+  @media screen and (max-width:$mobile) {
+    display: none;
+  }
+}
+
 // * Home
 
 .home {
   display: flex;
   margin: 10px 0px 0px;
   justify-content: center;
+  @media screen and (max-width:$tablet) {
+    flex-direction: column;
+  }
 }
 
 .project-info {
@@ -45,6 +62,9 @@ nav {
   a, p {
     font-size: 15px;
     color: blue;
+  }
+  @media screen and (max-width:$tablet) {
+    display: none;
   }
 }
 
@@ -67,6 +87,25 @@ nav {
   img {
     width: 100px;
   }
+  @media screen and (max-width:$tablet) {
+    display: none;
+  }
+}
+
+.link {
+  display: none;
+  @media screen and (max-width:$tablet) {
+    display: block;
+    text-align: center;
+    margin: 0px 0px 15px 0px;
+    a {
+      color: blue;
+      font-size: 15px;
+    }
+  }
+  @media screen and (max-width:$mobile) {
+    margin: 10px 0px 0px 0px;
+  }
 }
 
 .video-primary-homepage {
@@ -75,6 +114,14 @@ nav {
   border-left: 1px solid blue;
   border-bottom: 1px solid blue;
   width: 800px;
+  @media screen and (max-width:$tablet) {
+    width: 700px;
+  }
+  @media screen and (max-width:$mobile) {
+    width: 350px;
+    border: none;
+    margin: 20px 0px 0px;
+  }
   }
 }
 
@@ -86,6 +133,12 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media screen and (max-width:$tablet) {
+    width: 700px;
+  }
+  @media screen and (max-width:$mobile) {
+    display: none;
+  }
 }
 
 .dots-display {
@@ -127,6 +180,9 @@ nav {
 
 .show {
   margin: 30px 0px 0px;
+  @media screen and (max-width:$tablet) {
+    margin: 10px 0px 0px;
+  }
 }
 
 .project-show-info {
@@ -145,7 +201,33 @@ nav {
   width: 50%;
   text-align: center;
   margin: 20px 0px;
+  @media screen and (max-width:$tablet) {
+    width: 80%;
+  }
+  @media screen and (max-width:$mobile) {
+    width: 95%;
+  }
 }
+
+#project-name-hidden {
+  @media screen and (max-width:$tablet) {
+    display: none;
+  }
+}
+
+#project-name-visible {
+  @media screen and (max-width:$tablet) {
+    text-align: center;
+    font-size: 15px;
+    color: blue;
+    margin: 0px 0px 30px 0px;
+  }
+  @media screen and (max-width:$mobile) {
+    margin: 30px 0px 20px 0px;
+  }
+}
+
+//  * About Page
 
 .about-para {
   width: 40%;
@@ -155,11 +237,27 @@ nav {
   a {
     color: blue;
   }
+  @media screen and (max-width:$tablet) {
+    width: 70%;
+  }
+  @media screen and (max-width:$mobile) {
+    width: 90%;
+    margin: 0px 20px;
+  }
 }
 
 .skills {
   display: flex;
   padding: 0px 15px 0px 0px;
+  @media screen and (max-width:$mobile) {
+    display: none;
+  }
+}
+
+#skills {
+  @media screen and (max-width:$mobile) {
+    display: none;
+  }
 }
 
 .skills-div {
@@ -171,4 +269,10 @@ nav {
 
 .about-page {
   display: flex;
+}
+
+#contact {
+  @media screen and (max-width:$mobile) {
+    margin: 0px 0px 10px;
+  }
 }
