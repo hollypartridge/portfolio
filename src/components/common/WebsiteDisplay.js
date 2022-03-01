@@ -17,7 +17,7 @@ function WebsiteDisplay({ title, video }) {
         </div>
       </div>
       <div className='video-primary-homepage'>
-        <video src={video} alt={title} autoPlay muted loop />
+        <video src={video} alt={title} autoPlay muted loop playsInline />
       </div>
     </div>
   )

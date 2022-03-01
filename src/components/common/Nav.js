@@ -4,7 +4,7 @@ function Nav() {
   return (
     <nav>
       <div id='nav-name'>
-        <Link to='/'>Holly Partridge ☺</Link>
+        <Link to='/'>Holly Partridge <span id='smiley'>☺</span><span id='b-emoji'>🦋</span></Link>
       </div>
       <div>
         <p id='job-title'>.｡.:*☆ Junior Software Engineer ☆.｡.:*</p>
