@@ -230,7 +230,9 @@ nav {
 }
 
 #project-name-visible {
+  display: none;
   @media screen and (max-width:$tablet) {
+    display: block;
     text-align: center;
     font-size: 15px;
     color: blue;
