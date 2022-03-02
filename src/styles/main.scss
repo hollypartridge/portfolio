@@ -1,6 +1,7 @@
 $mobile: 600px;
 $tablet: 900px;
 $featured: 1200px;
+$about: 1400px;
 
 * {
   font-family: 'Helvetica', sans-serif;
@@ -253,8 +254,11 @@ nav {
   a {
     color: blue;
   }
-  @media screen and (max-width:$tablet) {
-    width: 70%;
+  @media screen and (max-width:$about) {
+    width: 80%;
+    #about {
+      width: 60%;
+    }
   }
   @media screen and (max-width:$mobile) {
     width: 90%;
